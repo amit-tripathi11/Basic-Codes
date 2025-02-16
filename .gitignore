@@ -1,0 +1,28 @@
+#Ignore Compiled object files
+*.o
+*.obj
+*.exe
+*.lib
+*.a
+*.dll
+
+#Ignore debug and release directories (common for IDEs)
+Debug/
+Release/
+build/
+CMakeFiles/
+CMakeCache.txt
+
+#Ignore Visual Studio files
+*.vcxproj*
+*.user
+
+#Ignore dependencies
+node_modules/
+vendor/
+
+#Ignore system files
+Thumbs.db
+*.tmp
+*.log
+.vscode/
